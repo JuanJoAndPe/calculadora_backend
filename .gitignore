@@ -6,3 +6,4 @@ styles.css
 sujetosQA.xlsx
 usuarios.env
 /Public
+/node_modules
