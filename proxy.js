@@ -8,9 +8,9 @@ require('dotenv').config();
 
 const app = express();
 app.use(cors({
-    origin: ['http://localhost:3000', 'https://calculadora-frontend.onrender.com/'],
+    origin: ['http://localhost:3000', 'https://calculadora-frontend.onrender.com'],
     methods: ['GET', 'POST', 'OPTIONS'],
-    allowedHeaders: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept', 'Authorization'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true
 }));
 app.use(express.json());
